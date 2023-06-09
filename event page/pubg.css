@@ -1,0 +1,79 @@
+@import url(./style.css);
+h1{
+    font-family: 'Saira Stencil One', cursive;
+    background-color: #fad608;
+    color: black;
+    text-transform: uppercase;
+    padding-left: 10px;
+    margin-bottom: 5vh;
+}
+.d-block{
+    /* padding-top:8vh ; */
+    height: 90vh;
+    width: 100vw;
+}
+.carousel-inner{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+h2{
+    position: absolute;
+    height: 800px;
+    width: 200px;
+    z-index: 2635752;
+    left: 40vw;
+    background-color: rgba(0, 0, 0, 0.579);
+    text-align: center;
+}
+.par p{
+    text-indent: 80px;
+    text-align: justify;
+    padding: 0 40px 0 40px;
+    margin-bottom: 8vh;
+}
+.blk{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h3{
+    text-transform: uppercase;
+    color: #fad608;
+    font-size: 2rem;
+    font-family: 'Saira Stencil One', cursive;
+    padding-top: 10px;
+    background-color: black;
+    width: 20vw;
+    text-align: center;
+}
+
+h6{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 2px;
+    width: 20vw;
+}
+#ebtn{
+    transition-duration: .3s;
+    height: 40px;
+    width: 100px;
+    font-size: large;
+    background-color: #e8d253;
+    clip-path: polygon(100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%,0 0);
+    border: 0px solid #00000000;
+}
+#ebtn:hover{
+    background-color: #fad608;
+    font-family: 'Saira Stencil One', cursive;
+
+
+}
+/* .blk:hover div{
+    background-color: #dfcf75;
+}
+#blk:hover div{
+    background-color: #dfcf7500;
+} */

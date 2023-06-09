@@ -1,0 +1,83 @@
+@import url(style.css);
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1f1f100;
+    /* background-image: url(./res/home-banner.png); */
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: grid;
+    gap: 10px;
+    align-items: center;
+
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+ form input[type="text"],
+ form input[type="number"],
+ form input[type="email"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #45a0493d;
+    border: 1px solid #ccc;
+  }
+  
+ form input[type="submit"] {
+    background-color: #fad608b4;
+    background-image: url(./res/nav-bar-bg.png);
+    color: white;
+    font-size: large;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+ form input[type="submit"]:hover {
+   background-image: url(./res/footer-bg.png);
+  }
+  
+ form input:required,
+  textarea:required,
+  select:required {
+    border-color: red;
+  }
+  
+ form input:valid,
+  textarea:valid,
+  select:valid {
+    border-color: #ccc;
+  }
+  
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./res/home-banner.png);
+
+}
+.ionicon {
+    position: relative;
+    left: 19px;
+    top: 18px;
+}
+footer{
+    margin-top: 0px!important;
+}
